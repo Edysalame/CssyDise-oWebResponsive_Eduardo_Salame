@@ -1,0 +1,263 @@
+
+
+
+body{
+  background-color: black;
+
+}
+@keyframes header-animacion {
+0% {
+position: relative;
+margin-top:150%;
+}
+60% {
+position: relative;
+margin-top: -5%;
+}
+100% {
+position: relative;
+margin-top: 0%;
+}
+}
+
+header{
+animation-name: header-animacion;
+animation-duration: 2s;
+-webkit-animation-delay: 0s;
+-moz-animation-delay: 0s;
+-o-animation-delay: 0s;
+animation-delay: 0s;
+}
+header{
+
+  background-color:  #5b7989;
+  font-family: 'Dancing Script', cursive;
+  border-radius: 10px;
+
+
+
+}
+.contenido{
+  width: 80%;
+text-align: center;
+padding-left: 10%;
+}
+header h1{
+  text-align: left;
+
+  text-shadow: 2px 2px #02010a;
+  color: white;
+
+}
+header h2{
+  word-spacing: 7px;
+  text-align: right;
+
+  text-decoration-color: white;
+
+}
+@media (max-width: 901px)
+{header h2{
+  text-align: center;
+}}
+.contenidoimagen{
+  text-align: center;
+}
+#imagencentral{
+
+  background-color: #82c3a6;
+ display: block;
+  border-radius: 10px;
+
+
+}
+#imagencentral img{
+  width:70%;
+
+  padding-bottom: 10%;
+  padding-top: 10%;
+
+
+}
+.contenido2{
+
+  background-color:  #d5c75f;
+
+}
+@media (min-width: 900px)
+{
+.contenido2{
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}
+
+
+.imagen2{
+  width: 40%;
+
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+
+}
+.imagen3{
+  width: 40%;
+
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+
+}
+@media (max-width: 901px)
+{.imagen3{
+  text-align: center;
+}
+}
+
+.imagen2 img{
+
+  border: 1px;
+  width: 100%;
+  padding-left: 15%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+  position: relative;
+
+
+
+}
+
+
+.imagen3 img{
+  border: 1px;
+  width: 100%;
+  padding-left: 40%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+}}}
+@media (max-width: 901px)
+{
+.contenido2{
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+}
+
+@media (max-width: 901px)
+{
+.imagen2{
+  width: 100%;
+  order: 1;
+
+}}
+@media (max-width: 901px)
+{
+.imagen3{
+  width: 100%;
+  order: 2;
+
+}}
+@media (max-width: 901px)
+{
+.imagen2 img{
+
+  border: 1px;
+  width: 80%;
+  padding-left: 0%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+}}
+
+@media (max-width: 901px)
+{
+.imagen3 img{
+  border: 1px;
+  width: 80%;
+  padding-left: 0%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+}}
+.imagen2 img{
+  transition-property: rotate;
+  transition-duration: 2s;
+}
+.imagen2 img:hover{
+  transform: rotate(10deg);
+
+}
+.imagen2 img{
+  transition-property: border;
+  transition-duration: 2s;
+}
+.imagen2 img{
+  transition-property: box-shadow;
+  transition-duration: 1s;
+}
+.imagen2 img:hover{
+  box-shadow: 2px 2px 2px #82c3a6;
+
+}
+
+
+.imagen3 img{
+  transition-property: translate;
+  transition-duration: 4s;
+}
+.imagen3 img:hover{
+  transform: translate(20px,-5px);
+
+}
+.imagen3 img{
+  transition-property: box-shadow;
+  transition-duration: 1s;
+}
+.imagen3 img:hover{
+  box-shadow: 2px 2px 2px #82c3a6;
+
+}
+
+footer{
+  background-color: #C6d5c5;
+  font-family: 'Dancing Script', cursive;
+  border-radius: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.terminos{
+  width: 25%;
+}
+.redessociales{
+  width: 25%;
+
+}
+.derechos{
+  width: 25%;
+}
+.contacto{
+  width: 25%;
+}
+
+.footer img{
+  width: 20px;
+}
+
+@media (max-width: 901px)
+{
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
